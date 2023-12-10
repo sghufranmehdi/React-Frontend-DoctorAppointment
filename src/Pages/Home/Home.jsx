@@ -6,6 +6,7 @@ import ServiceSection from "../../Components/ServiceSection/ServiceSection";
 import Feature from "../../Components/Feature/Feature";
 import DoctorsSection from "../../Components/DoctorsSection/DoctorsSection";
 import FAQSection from "../../Components/FAQSection/FAQSection";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Feature />
       <DoctorsSection />
       <FAQSection />
+      <Testimonial />
     </>
   );
 };
