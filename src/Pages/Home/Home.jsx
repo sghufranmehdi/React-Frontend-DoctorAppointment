@@ -5,6 +5,7 @@ import MidHome from "../../Components/Midhome/MidHome";
 import ServiceSection from "../../Components/ServiceSection/ServiceSection";
 import Feature from "../../Components/Feature/Feature";
 import DoctorsSection from "../../Components/DoctorsSection/DoctorsSection";
+import FAQSection from "../../Components/FAQSection/FAQSection";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ServiceSection />
       <Feature />
       <DoctorsSection />
+      <FAQSection />
     </>
   );
 };
